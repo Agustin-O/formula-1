@@ -1,27 +1,32 @@
-# 🏁 Desafio Fullstack: Portal Interativo Fórmula 1#
-###Seja bem-vindo ao projeto prático de Desenvolvimento de Sistemas!###
- O seu desafio será construir uma Landing Page de alto impacto para a temporada da Fórmula 1. 
- O objetivo é criar uma interface dinâmica, imersiva e interativa utilizando apenas a tríade fundamental da web: HTML5, CSS3 e JavaScript Vanilla.
- 🛑 Regra de Ouro: Para a resolução deste projeto, você não poderá utilizar inteligência artificial (ChatGPT, Copilot, etc.) ou fóruns de respostas prontas. A sua única fonte de consulta permitida será a documentação oficial do <b>W3Schools</b>.🎨 
+# 🏁 Desafio Fullstack: Portal Interativo Fórmula 1
 
+## 📖 Sobre o Projeto
+O **Portal Interativo Fórmula 1** é um projeto prático de Desenvolvimento de Sistemas focado na criação de uma *Landing Page* de alto impacto para a temporada da Fórmula 1. O objetivo é desenvolver uma interface dinâmica, imersiva e interativa utilizando exclusivamente a tríade fundamental da web: **HTML5**, **CSS3** e **JavaScript Vanilla**.
+
+> **🛑 Regra de Ouro:** Para a resolução deste projeto, **não é permitido** utilizar inteligência artificial (ChatGPT, Copilot, etc.) ou fóruns de respostas prontas. A única fonte de consulta permitida é a documentação oficial do **W3Schools**.
+
+## 📂 Estrutura do Projeto
+O projeto deve seguir rigorosamente a seguinte organização de arquivos e diretórios:
+
+```text
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 ├── assets/
-│   ├── backgroun-1.jpg
-│   ├── backgroun-2.jpg
-│   ├── backgroun-3.jpg
-    ├── backgroun-4.jpg
+│   ├── background-1.jpg
+│   ├── background-2.jpg
+│   ├── background-3.jpg
+│   ├── background-4.jpg
 │   └── icon.webp
 ├── pages/
-    ├── index.html
-    ├── f1-circuits.html
-    ├── squads.html
+│   ├── index.html
+│   ├── f1-circuits.html
+│   └── squads.html
 ├── .gitignore
 ├── index.html
-└── README.md
-
+└── README.md   
+``
 # 🛠️ Requisitos Técnicos e Funcionalidades1. 
 Estrutura (HTML5 Semântico)O layout deve ser limpo e utilizar as tags semânticas corretas: <header>, <nav>, <main>, e <section>.
 No canto superior direito, crie um menu de navegação (<nav>) contendo os links: Home, Equipes e Pistas.2. 
