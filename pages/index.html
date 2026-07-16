@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1</title>
-    <link rel="icon" type="image/png" href="../assets/icon.webp"><!--Link que coloca imagens na aba do navegador-->
-    <link rel="stylesheet" href="coloque_o _caminho_do_css">
+    <link rel="icon" type="image/png" href="../assets/icon.webp">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../assets/background-2.jpg" alt="Carro 1">
+            </div>
+
+            <div class="item">
+                <img src="../assets/background-3.jpg" alt="Carro 2">
+            </div>
+
+            <div class="item">
+                <img src="../assets/background-4.jpg" alt="Carro 3">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     <h1>Formula 1</h1>
-    <img src="../assets/background-1.jpg"> 
+    <img src="Botar imagem background depois.">
+    <form action="../pages/squads.html">
+        <label for="fname">Primeiro Nome:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Digite seu primeiro nome...">
+
+        <label for="lname">Sobrenome:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Digite seu sobrenome...">
+
+        <label for="country">País</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="brazil">Brasil</option>
+            <option value="norway">Noruega</option>
+            <option value="argentina">Argentina</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
 
 </body>
+
 </html>
