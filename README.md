@@ -3,6 +3,7 @@
 ## 📖 Sobre o Projeto
 O **Portal Interativo Fórmula 1** é um projeto prático de Desenvolvimento de Sistemas focado na criação de uma *Landing Page* de alto impacto para a temporada da Fórmula 1. O objetivo é desenvolver uma interface dinâmica, imersiva e interativa utilizando exclusivamente a tríade fundamental da web: **HTML5**, **CSS3** e **JavaScript Vanilla**.
 
+
 > **🛑 Regra de Ouro:** Para a resolução deste projeto, **não é permitido** utilizar inteligência artificial (ChatGPT, Copilot, etc.) ou fóruns de respostas prontas. A única fonte de consulta permitida é a documentação oficial do **W3Schools**.
 
 ## 📂 Estrutura do Projeto
